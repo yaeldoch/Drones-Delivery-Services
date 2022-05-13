@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DlApi\DalApi.csproj" />
+    <ProjectReference Include="..\Singelton\Singleton.csproj" />
+    <ProjectReference Include="..\StringUtilities\StringUtilities.csproj" />
+  </ItemGroup>
+
+	<PropertyGroup>
+		<LangVersion>9.0</LangVersion>
+	</PropertyGroup>
+
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+	  <OutputPath></OutputPath>
+	</PropertyGroup>
+
+</Project>
